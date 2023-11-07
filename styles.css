@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+.categories {
+    display: none;
+    margin-bottom: 20px;
+}
+
+.category-buttons {
+    margin-bottom: 10px;
+    display: inline;
+}
+
+#map {
+    width: 100%;
+    height: 400px;
+}
+
+.category {
+    width: 24%;
+    height: 50px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: lime;
+}
+
+.subCategory {
+    margin: 10px;
+    height: 3%;
+    width: 10%;
+    border: none;
+    border-radius: 7px;
+    background: aqua;
+}

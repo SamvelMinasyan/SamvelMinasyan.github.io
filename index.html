@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Recar</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://api-maps.yandex.ru/2.1.59/?apikey=22043523-6e86-4229-8252-fe70c0101acf&lang=ru_RU" type="text/javascript"></script>
+    <title>Yandex Maps Example</title>
 </head>
 <body>
-	<h1>Recar Armenia</h1>
-	<a href="https://yandex.ru/maps/?ll=44.514975,40.185847&pt=44.498513,40.205020&z=13&l=map">Summer Gardens</a>
-	<a href="https://yandex.ru/maps/?rtext=40.185847,44.514975~40.205020,44.498513&rtt=auto">Get directions</a>
-	<hr>
-	<div style="position:relative;overflow:hidden;">
-		<a href="https://yandex.ru/maps/10262/yerevan/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Ереван</a>
-		<a href="https://yandex.ru/maps/10262/yerevan/?ll=44.514975,40.185847&pt=44.498513,40.205020&utm_medium=mapframe&utm_source=maps&z=13" style="color:#eee;font-size:12px;position:absolute;top:14px;">Яндекс Карты — транспорт, навигация, поиск мест</a>
-		<iframe src="https://yandex.ru/map-widget/v1/?ll=44.514975,40.185847&pt=44.498513,40.205020&z=13" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
-	</div>
+    <div class="buttons">
+        <button class="category" id="moykaBtn">Moyka</button>
+        <button class="category" id="zapravkaBtn">Zapravka</button>
+        <button class="category" id="artaqinBtn">Artaqin</button>
+        <button class="category" id="texnikakanBtn">Texnikakan</button>
+    </div>
+    <div id="categories"></div>
+    <div id="map"></div>
+    <script src="script.js"></script>
 </body>
 </html>
